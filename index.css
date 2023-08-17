@@ -1,7 +1,49 @@
+body {
+    background-color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-size: .8rem;
+}
+
 .contenedor {
     background-color: white;
-    height: 500px;
+    height: 510px;
     width: 400px;
-    border: 1px solid red;
     margin: auto;
+}
+
+.header_post {
+    display: flex;
+}
+
+.header_post p {
+    margin: 2px;
+}
+
+.texto {
+    margin-top: 6px;
+    margin-left: 5px;
+}
+
+#logo {
+    padding: 10px;
+    font-size: 1.9rem;
+}
+
+.menu {
+    padding: 10px;
+    font-size: 1.9rem;
+    float: left;
+    margin-left: 250px;
+}
+
+.footer_post {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.5rem;
+    padding: 5px;
+}
+
+.comentarios{
+    padding-left: 6px;
+    padding-right: 6px;
 }
